@@ -1,0 +1,25 @@
+.banner{
+    width: 100%;
+}
+
+.products-container{
+    padding: 40px 0;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.section-title{
+    font-family: sans-serif;
+    color: #f54800;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 0 15px;
+}
